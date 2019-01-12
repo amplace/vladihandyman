@@ -213,8 +213,100 @@ select { /* 1 */
        -moz-box-sizing: border-box;
             box-sizing: border-box;
 }body {
+    /* size */
+    width: 100%;
+    max-width: 960px;
+    /* position - horizontally centered */
+    margin: 0 auto;
+    /* font */
     font-family: 'Bellefair', serif;
     color: #684b36;
     text-align: center;
+    /* background */
+    background-image: url('../../assets/img/bricks-small.jpg');
+    background-repeat: repeat;
+    background-position: left top;
+}/* higher resolution background image for larger screens */@media (min-width: 800px) {body {
+        background-image: url('../../assets/img/bricks-medium.jpg')
 }
+    }/* headers */h1,
+h2,
+h3,
+h4 {
+    /* no spacing */
+    margin: 0;
+    /* font */
+    font-weight: bold;
+}h1 {
+    font-size: 2.0rem;
 
+}/* responsive font size */@media (min-width: 600px) {h1 {
+        font-size: 2.5rem
+
+}
+    }@media (min-width: 800px) {h1 {
+        font-size: 3.0rem
+
+}
+    }@media (min-width: 1000px) {h1 {
+        font-size: 3.5rem
+
+}
+    }h2 {
+    font-size: 1.5rem;
+}/* responsive font size */@media (min-width: 600px) {h2 {
+        font-size: 2.0rem
+}
+    }@media (min-width: 800px) {h2 {
+        font-size: 2.5rem
+}
+    }@media (min-width: 1000px) {h2 {
+        font-size: 3.0rem
+}
+    }h3 {
+    font-size: 1.2rem;
+}/* responsive font size */@media (min-width: 600px) {h3 {
+        font-size: 1.4rem
+}
+    }@media (min-width: 800px) {h3 {
+        font-size: 1.5rem
+}
+    }@media (min-width: 1000px) {h3 {
+        font-size: 1.6rem
+}
+    }h4 {
+    /* font */
+    font-weight: normal;
+    font-size: 1.2rem;
+}/* responsive font size */@media (min-width: 600px) {h4 {
+        font-size: 1.4rem
+}
+    }@media (min-width: 800px) {h4 {
+        font-size: 1.5rem
+}
+    }@media (min-width: 1000px) {h4 {
+        font-size: 1.6rem
+}
+    }/* paragraf */p {
+    /* spacing */
+    margin: 5px;
+    /* font */
+    font-size: 1.0rem;
+}/* responsive font size */@media (min-width: 600px) {p {
+        font-size: 1.2rem
+}
+    }@media (min-width: 800px) {p {
+        font-size: 1.3rem
+}
+    }@media (min-width: 1000px) {p {
+        font-size: 1.4rem
+}
+    }/* links */a {
+    color: #e37c2e;
+    text-decoration: none;
+}/* change color on hover */a:hover {
+        color: #e37c2e;
+        text-decoration: none;
+    }a--no-link:hover {
+        cursor:default;
+    }

@@ -8,7 +8,21 @@
 }
 
 body {
+    /* size */
+    width: 100%;
+    max-width: 960px;
+    /* position - horizontally centered */
+    margin: 0 auto;
+    /* font */
     font-family: 'Bellefair', serif;
     color: $myBrown;
     text-align: center;
+    /* background */
+    background-image: url('../../assets/img/bricks-small.jpg');
+    background-repeat: repeat;
+    background-position: left top;
+    /* higher resolution background image for larger screens */
+    @mixin atMedium {
+        background-image: url('../../assets/img/bricks-medium.jpg');
+    }
 }

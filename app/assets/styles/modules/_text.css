@@ -1,0 +1,121 @@
+/* headers */
+
+h1,
+h2,
+h3,
+h4 {
+    /* no spacing */
+    margin: 0;
+    /* font */
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 2.0rem;
+
+    /* responsive font size */
+    @mixin atSmall {
+        font-size: 2.5rem;
+    }
+
+    @mixin atMedium {
+        font-size: 3.0rem;
+    }
+
+    @mixin atLarge {
+        font-size: 3.5rem;
+    }
+
+}
+
+h2 {
+    font-size: 1.5rem;
+
+    /* responsive font size */
+    @mixin atSmall {
+        font-size: 2.0rem;
+    }
+
+    @mixin atMedium {
+        font-size: 2.5rem;
+    }
+
+    @mixin atLarge {
+        font-size: 3.0rem;
+    }
+}
+
+h3 {
+    font-size: 1.2rem;
+
+    /* responsive font size */
+    @mixin atSmall {
+        font-size: 1.4rem;
+    }
+
+    @mixin atMedium {
+        font-size: 1.5rem;
+    }
+
+    @mixin atLarge {
+        font-size: 1.6rem;
+    }
+}
+
+h4 {
+    /* font */
+    font-weight: normal;
+    font-size: 1.2rem;
+
+    /* responsive font size */
+    @mixin atSmall {
+        font-size: 1.4rem;
+    }
+
+    @mixin atMedium {
+        font-size: 1.5rem;
+    }
+
+    @mixin atLarge {
+        font-size: 1.6rem;
+    }
+}
+
+/* paragraf */
+
+p {
+    /* spacing */
+    margin: 5px;
+    /* font */
+    font-size: 1.0rem;
+
+    /* responsive font size */
+    @mixin atSmall {
+        font-size: 1.2rem;
+    }
+
+    @mixin atMedium {
+        font-size: 1.3rem;
+    }
+
+    @mixin atLarge {
+        font-size: 1.4rem;
+    }
+}
+
+/* links */
+
+a {
+    color: $myOrange;
+    text-decoration: none;
+
+    /* change color on hover */
+    &:hover {
+        color: $myOrange;
+        text-decoration: none;
+    }
+    
+    &--no-link:hover {
+        cursor:default;
+    }
+}
