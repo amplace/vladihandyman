@@ -6,7 +6,7 @@ var gulp = require('gulp'),
     browserSync = require('browser-sync').create(),
     del = require('del');
 
-gulp.task('previewDocs', function () {
+gulp.task('preview', function () {
     browserSync.init({
         notify: false,
         server: {
