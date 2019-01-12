@@ -231,20 +231,6 @@ select { /* 1 */
 }/* higher resolution background image for larger screens */@media (min-width: 800px) {body {
         background-image: url('../../assets/img/bricks-medium.jpg')
 }
-    }header {
-    /* size */
-    min-height: 50vh;
-    max-height: 100vh;
-    /* background */
-    background-image: url('../../assets/img/stairs-small.jpg');
-    -webkit-background-size: cover;
-       -moz-background-size: cover;
-            background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center bottom;
-}/* higher resolution background image for larger screens */@media (min-width: 800px) {header {
-        background-image: url('../../assets/img/stairs-medium.jpg')
-}
     }/* headers */h1,
 h2,
 h3,
@@ -505,4 +491,18 @@ h4 {
         background-color: rgba(188,192,195, 0.85) !important;
     }.bg-dark {
         background-color: rgba(65,42,25, 0.85) !important;
+    }header {
+    /* size */
+    min-height: 50vh;
+    max-height: 100vh;
+    /* background */
+    background-image: url('../../assets/img/stairs-small.jpg');
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+            background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}/* higher resolution background image for larger screens */@media (min-width: 800px) {header {
+        background-image: url('../../assets/img/stairs-medium.jpg')
+}
     }

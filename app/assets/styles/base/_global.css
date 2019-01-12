@@ -29,19 +29,3 @@ body {
         background-image: url('../../assets/img/bricks-medium.jpg');
     }
 }
-
-header {
-    /* size */
-    min-height: 50vh;
-    max-height: 100vh;
-    /* background */
-    background-image: url('../../assets/img/stairs-small.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center bottom;
-
-    /* higher resolution background image for larger screens */
-    @mixin atMedium {
-        background-image: url('../../assets/img/stairs-medium.jpg');
-    }
-}
