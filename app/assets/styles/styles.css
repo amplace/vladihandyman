@@ -3,5 +3,5 @@
 @import "base/_mixins";
 @import "base/_global";
 @import "modules/_text";
-@import "modules/_navbar";
 @import "modules/_shine";
+@import "modules/_colors";

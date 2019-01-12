@@ -1,0 +1,23 @@
+.text {
+    &-light {
+        color: $myGrey !important;
+    }
+
+    &-dark {
+        color: $myBrown !important;
+    }
+
+    &-link {
+        color: $myOrange !important;
+    }
+}
+
+.bg {
+    &-light {
+        background-color: rgba($myGrey, 0.85) !important;
+    }
+
+    &-dark {
+        background-color: rgba($myDark, 0.85) !important;
+    }
+}
