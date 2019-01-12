@@ -15,8 +15,10 @@ body {
     margin: 0 auto;
     /* font */
     font-family: 'Bellefair', serif;
-    color: $myBrown;
     text-align: center;
+    /* border */
+    border-left: 2px solid $myGrey;
+    border-right: 2px solid $myGrey;
     /* background */
     background-image: url('../../assets/img/bricks-small.jpg');
     background-repeat: repeat;

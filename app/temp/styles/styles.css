@@ -220,8 +220,10 @@ select { /* 1 */
     margin: 0 auto;
     /* font */
     font-family: 'Bellefair', serif;
-    color: #684b36;
     text-align: center;
+    /* border */
+    border-left: 2px solid #bcc0c3;
+    border-right: 2px solid #bcc0c3;
     /* background */
     background-image: url('../../assets/img/bricks-small.jpg');
     background-repeat: repeat;
@@ -325,24 +327,6 @@ h4 {
     }/* other */.phone {
     font-family: 'Alef', sans-serif;
     cursor: default;
-}.navbar {
-    /* size */
-    max-width: 960px;
-    height: 50px;
-    /* links position */
-    -webkit-box-pack: end;
-    -webkit-justify-content: flex-end;
-       -moz-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
-    /* background */
-    background-color: rgba(65,42,25, 0.85);
-    /* border */
-    border-left: 2px solid #bcc0c3;
-    border-right: 2px solid #bcc0c3;
-    /* links font */
-    font-family: 'Alef', sans-serif;
-    color: #bcc0c3;
 }.shine {
     position: relative;
     overflow: hidden;
@@ -511,4 +495,14 @@ h4 {
              -o-transition-timing-function: ease;
                 transition-timing-function: ease;
     }
-}
+}.text-light {
+        color: #bcc0c3 !important;
+    }.text-dark {
+        color: #684b36 !important;
+    }.text-link {
+        color: #e37c2e !important;
+    }.bg-light {
+        background-color: rgba(188,192,195, 0.85) !important;
+    }.bg-dark {
+        background-color: rgba(65,42,25, 0.85) !important;
+    }
