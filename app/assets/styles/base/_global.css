@@ -1,0 +1,14 @@
+/* _global.css */
+
+@import url('https://fonts.googleapis.com/css?family=Alef|Bellefair');
+
+/* include padding and border in an element's total width and height */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Bellefair', serif;
+    color: $myBrown;
+    text-align: center;
+}
