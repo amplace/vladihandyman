@@ -307,6 +307,24 @@ h4 {
 }/* change color on hover */a:hover {
         color: #e37c2e;
         text-decoration: none;
-    }a--no-link:hover {
-        cursor:default;
+    }.navbar {
+    /* size */
+    max-width: 960px;
+    height: 50px;
+    /* links position */
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+       -moz-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    /* background */
+    background-color: rgba(65,42,25, 0.85);
+    /* border */
+    border-left: 2px solid #bcc0c3;
+    border-right: 2px solid #bcc0c3;
+    /* links font */
+    font-family: 'Alef', sans-serif;
+    color: #bcc0c3;
+}.navbar a:hover {
+        cursor: default;
     }

@@ -114,8 +114,4 @@ a {
         color: $myOrange;
         text-decoration: none;
     }
-    
-    &--no-link:hover {
-        cursor:default;
-    }
 }

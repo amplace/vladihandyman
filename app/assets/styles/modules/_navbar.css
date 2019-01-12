@@ -1,0 +1,19 @@
+.navbar {
+    /* size */
+    max-width: 960px;
+    height: 50px;
+    /* links position */
+    justify-content: flex-end;
+    /* background */
+    background-color: rgba($myDark, 0.85);
+    /* border */
+    border-left: 2px solid $myGrey;
+    border-right: 2px solid $myGrey;
+    /* links font */
+    font-family: 'Alef', sans-serif;
+    color: $myGrey;
+    
+    & a:hover {
+        cursor: default;
+    }
+}
