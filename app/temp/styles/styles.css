@@ -229,7 +229,18 @@ select { /* 1 */
 }/* higher resolution background image for larger screens */@media (min-width: 800px) {body {
         background-image: url('../../assets/img/bricks-medium.jpg')
 }
-    }/* headers */h1,
+    }header {
+    /* size */
+    min-height: 50vh;
+    max-height: 100vh;
+    /* background */
+    background-image: url('../../assets/img/stairs-small.jpg');
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+            background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}/* headers */h1,
 h2,
 h3,
 h4 {
@@ -307,7 +318,10 @@ h4 {
 }/* change color on hover */a:hover {
         color: #e37c2e;
         text-decoration: none;
-    }.navbar {
+    }/* other */.phone {
+    font-family: 'Alef', sans-serif;
+    cursor: default;
+}.navbar {
     /* size */
     max-width: 960px;
     height: 50px;
@@ -325,6 +339,4 @@ h4 {
     /* links font */
     font-family: 'Alef', sans-serif;
     color: #bcc0c3;
-}.navbar a:hover {
-        cursor: default;
-    }
+}

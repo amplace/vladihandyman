@@ -12,8 +12,4 @@
     /* links font */
     font-family: 'Alef', sans-serif;
     color: $myGrey;
-    
-    & a:hover {
-        cursor: default;
-    }
 }

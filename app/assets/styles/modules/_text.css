@@ -115,3 +115,10 @@ a {
         text-decoration: none;
     }
 }
+
+/* other */
+
+.phone {
+    font-family: 'Alef', sans-serif;
+    cursor: default;
+}
