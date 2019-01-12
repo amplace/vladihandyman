@@ -240,7 +240,10 @@ select { /* 1 */
             background-size: cover;
     background-repeat: no-repeat;
     background-position: center bottom;
-}/* headers */h1,
+}/* higher resolution background image for larger screens */@media (min-width: 800px) {header {
+        background-image: url('../../assets/img/stairs-medium.jpg')
+}
+    }/* headers */h1,
 h2,
 h3,
 h4 {
