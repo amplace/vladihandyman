@@ -491,10 +491,20 @@ h4 {
         background-color: rgba(188,192,195, 0.85) !important;
     }.bg-dark {
         background-color: rgba(65,42,25, 0.85) !important;
-    }header {
+    }.navbar {
+    /* size */
+    width: 100%;
+    max-width: 960px;
+    height: 50px;
+    /* border */
+    border-left: 2px solid #bcc0c3;
+    border-right: 2px solid #bcc0c3;
+}.header {
     /* size */
     min-height: 50vh;
     max-height: 100vh;
+    /* spacing for navbar */
+    margin-top: 50px;
     /* background */
     background-image: url('../../assets/img/stairs-small.jpg');
     -webkit-background-size: cover;
@@ -502,7 +512,7 @@ h4 {
             background-size: cover;
     background-repeat: no-repeat;
     background-position: center bottom;
-}/* higher resolution background image for larger screens */@media (min-width: 800px) {header {
+}/* higher resolution background image for larger screens */@media (min-width: 800px) {.header {
         background-image: url('../../assets/img/stairs-medium.jpg')
 }
     }
