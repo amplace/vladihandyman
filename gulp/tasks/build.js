@@ -4,7 +4,8 @@ var gulp = require('gulp'),
     rev = require('gulp-rev'),
     cssnano = require('gulp-cssnano'),
     browserSync = require('browser-sync').create(),
-    del = require('del');
+    del = require('del'),
+    sitemap = require('gulp-sitemap');
 
 gulp.task('preview', function () {
     browserSync.init({
@@ -40,4 +41,14 @@ gulp.task('usemin', ['deleteDocs', 'styles'], function () {
         .pipe(gulp.dest('./docs'));
 });
 
-gulp.task('build', ['deleteDocs', 'optimizeImages', 'usemin']);
+gulp.task('sitemap', ['usemin'], () => {
+    gulp.src('docs/**/*.html', {
+            read: false
+        })
+        .pipe(sitemap({
+            siteUrl: 'https://amplace.co.il/'
+        }))
+        .pipe(gulp.dest('./docs'));
+});
+
+gulp.task('build', ['deleteDocs', 'optimizeImages', 'usemin', 'sitemap']);
