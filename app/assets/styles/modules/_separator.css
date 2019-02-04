@@ -1,0 +1,31 @@
+.separator {
+    position: relative;
+
+    &::after,
+    &::before {
+        content: "";
+        display: block;
+        position: absolute;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 20px;
+        border-top: 1px solid $myGrey;
+        border-bottom: 1px solid $myGrey;
+        background-image: linear-gradient(45deg, #302f2f 25%, #ccc23d 25%, #ccc23d 50%, #302f2f 50%, #302f2f 75%, #ccc23d 75%, #ccc23d 100%);
+        background-size: 42.43px 42.43px;
+        opacity: .9;
+
+    }
+
+    &::after {
+        bottom: -10px;
+        transform: rotate(-1deg);
+    }
+
+    &::before {
+        top: -10px;
+        transform: rotate(1deg);
+    }
+
+}
