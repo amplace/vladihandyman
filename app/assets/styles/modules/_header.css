@@ -24,8 +24,5 @@
     @mixin atMedium {
         background-image: url('../../assets/img/stairs-medium.jpg');
     }
-    
-    & .content {
-        -webkit-backface-visibility: hidden;
-    }
+
 }
