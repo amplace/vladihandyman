@@ -3,7 +3,6 @@
 @import "base/_mixins";
 @import "base/_global";
 @import "modules/_text";
-@import "modules/_shine";
 @import "modules/_colors";
 @import "modules/_header";
 @import "modules/_separator";
