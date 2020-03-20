@@ -20,12 +20,12 @@ body {
     border-left: 2px solid $myGrey;
     border-right: 2px solid $myGrey;
     /* background */
-    background-image: url('../../assets/img/bricks-small.jpg');
-    background-repeat: repeat;
-    background-position: left top;
+    background-image: url('../../assets/img/white-bricks-small.jpg');
+    background-size: cover;
+    background-attachment: fixed;
 
     /* higher resolution background image for larger screens */
     @mixin atMedium {
-        background-image: url('../../assets/img/bricks-medium.jpg');
+        background-image: url('../../assets/img/white-bricks.jpg');
     }
 }
