@@ -1,7 +1,5 @@
 /* _global.css */
 
-@import url('https://fonts.googleapis.com/css?family=Alef|Bellefair');
-
 /* include padding and border in an element's total width and height */
 * {
     box-sizing: border-box;
@@ -14,7 +12,7 @@ body {
     /* position - horizontally centered */
     margin: 0 auto;
     /* font */
-    font-family: 'Bellefair', serif;
+    font-family: sans-serif;
     text-align: center;
     /* border */
     border-left: 2px solid $myGrey;
