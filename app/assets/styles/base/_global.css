@@ -6,21 +6,14 @@
 }
 
 body {
-    /* size */
     width: 100%;
     max-width: 960px;
-    /* position - horizontally centered */
     margin: 0 auto;
-    /* font */
     font-family: sans-serif;
-    text-align: center;
-    /* background */
-    background-image: url('../../assets/img/white-bricks-small.jpg');
-    background-size: cover;
+    background-color: #8C97A2;
+    background-image: url('../../assets/img/tile.jpg');
     background-attachment: fixed;
+    background-position: bottom center;
+    background-repeat: repeat-x;
 
-    /* higher resolution background image for larger screens */
-    @mixin atMedium {
-        background-image: url('../../assets/img/white-bricks.jpg');
-    }
 }
