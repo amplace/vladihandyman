@@ -14,9 +14,6 @@ body {
     /* font */
     font-family: sans-serif;
     text-align: center;
-    /* border */
-    border-left: 2px solid $myGrey;
-    border-right: 2px solid $myGrey;
     /* background */
     background-image: url('../../assets/img/white-bricks-small.jpg');
     background-size: cover;

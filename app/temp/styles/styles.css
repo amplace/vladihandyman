@@ -379,9 +379,6 @@ body {
     /* font */
     font-family: sans-serif;
     text-align: center;
-    /* border */
-    border-left: 2px solid #bcc0c3;
-    border-right: 2px solid #bcc0c3;
     /* background */
     background-image: url('../../assets/img/white-bricks-small.jpg');
     -webkit-background-size: cover;
@@ -597,40 +594,4 @@ a:hover {
 
 .bg-dark {
         background-color: rgba(65,42,25, 0.85) !important;
-    }
-
-.navbar {
-    /* size */
-    width: 100%;
-    max-width: 960px;
-    height: 50px;
-    /* border */
-    border-left: 2px solid #bcc0c3;
-    border-right: 2px solid #bcc0c3;
-}
-
-.header {
-    /* size */
-    min-height: 50vh;
-    max-height: 100vh;
-    /* spacing for navbar */
-    margin-top: 50px;
-    /* background */
-    background-image: url('../../assets/img/stairs-small.jpg');
-    -webkit-background-size: cover;
-       -moz-background-size: cover;
-            background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center bottom;
-
-}
-
-/* higher resolution background image for larger screens */
-
-@media (min-width: 800px) {
-
-.header {
-        background-image: url('../../assets/img/stairs-medium.jpg')
-
-}
     }
